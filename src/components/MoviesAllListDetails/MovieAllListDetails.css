@@ -1,11 +1,32 @@
 .movie_card {
     min-height: 200px;
-    background: blueviolet;
+    background: black;
     width: 300px;
     margin: 3px;
+    color: white;
+    padding: 5px;
 }
 
 .movies_list {
     display: flex;
     flex-wrap: wrap;
+}
+
+.movie_block {
+    width: 330px;
+    padding: 10px;
+    border: 1px solid dimgray;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin: 10px 10px 10px 80px;
+}
+
+.movie_block:hover {
+    background: slategray;
+    transition: .3s;
+    transform: rotateY(2grad);
 }

@@ -35,10 +35,10 @@
 .genre_list {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    height: 200px;
+    flex-direction: column;
     margin: 20px;
-color: white;
+    color: white;
+
 }
 
 .header_list {

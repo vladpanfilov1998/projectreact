@@ -1,0 +1,19 @@
+
+.genre_block {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.genre_block:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}

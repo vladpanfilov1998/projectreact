@@ -1,4 +1,3 @@
-export * from './Home/Home';
 export * from './GenreBadge/GenreBadge';
 export * from './GenreBadgeDetails/GenreBadgeDetails';
 export * from './MoviesList/MoviesList';
@@ -7,3 +6,7 @@ export * from './MoviesAllList/MoviesAllList';
 export * from './MoviesAllListDetails/MoviesAllListDetails';
 export * from './Header/Header';
 export * from './Layout/Layout';
+export * from './Home/Home';
+export * from './GenreBadgeDetails/GenreBadgeDetails.css';
+export * from './MovieSingleDetails/MovieSingleDetails';
+export * from './MovieSingleDetailsList/MovieSingleDetailsList';
