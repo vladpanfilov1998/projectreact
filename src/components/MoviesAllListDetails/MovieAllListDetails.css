@@ -1,0 +1,11 @@
+.movie_card {
+    min-height: 200px;
+    background: blueviolet;
+    width: 300px;
+    margin: 3px;
+}
+
+.movies_list {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,50 @@
+.header {
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.outlet {
+    width: 95%;
+    margin: 0 auto;
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    overflow-y: auto;
+    background: black;
+}
+
+.singlePost {
+    margin-left: 150px;
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.genre_list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 200px;
+    margin: 20px;
+color: white;
+}
+
+.header_list {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 40px;
+}
