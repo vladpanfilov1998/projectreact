@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
+import {Outlet} from "react-router-dom";
 
 import GenreBadgeDetails from "../GenreBadgeDetails/GenreBadgeDetails";
 import {getGenres} from "../services/genres.api";
 import css from '../App.module.css';
-import {Outlet} from "react-router-dom";
-
 
 export function GenreBadge() {
     let [genreses, setGenres] = useState([]);
@@ -24,10 +23,8 @@ export function GenreBadge() {
                 {genreses.map((genre) => <GenreBadgeDetails key={genre.id} item={genre}/>)}
             </div>
             <Outlet/>
-
         </div>
-
-);
+    );
 }
 
 export default GenreBadge;

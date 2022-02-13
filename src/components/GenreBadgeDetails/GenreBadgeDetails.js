@@ -8,7 +8,7 @@ export function GenreBadgeList(props) {
             <div className={'genre_block'}>
                 <div>ID: {item.id}</div>
                 <div>GENRE: {item.name}</div>
-                <Link to={'genre-details'} state={item.id.toString()}>
+                <Link to={'genre-details'} state={item}>
                     <button>FILMS</button>
                 </Link>
             </div>

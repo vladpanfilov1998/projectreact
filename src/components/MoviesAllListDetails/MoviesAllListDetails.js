@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 import './MovieAllListDetails.css'
 
 export function MoviesAllListDetails(props) {
@@ -11,8 +13,10 @@ export function MoviesAllListDetails(props) {
                          alt="Poster"/>
                 </div>
 
-                <div><h4>{movie.title}</h4></div>
-
+                <div><h2>{movie.title}</h2></div>
+                <Link to={'movie-details'} state={movie}>
+                    <button>FILM DETAILS</button>
+                </Link>
 
             </div>
         </div>

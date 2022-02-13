@@ -1,0 +1,16 @@
+.name_movie {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid dimgray;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin: 10px 10px 10px 80px;
+}
+
+.name_movie:hover {
+    background: slategray;
+    transition: .3s;
+    transform: rotateY(2grad);
+}

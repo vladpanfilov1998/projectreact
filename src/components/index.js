@@ -10,3 +10,6 @@ export * from './Home/Home';
 export * from './GenreBadgeDetails/GenreBadgeDetails.css';
 export * from './MovieSingleDetails/MovieSingleDetails';
 export * from './MovieSingleDetailsList/MovieSingleDetailsList';
+export * from './MoviesList/MoviesList.css';
+export * from './MoviesListDetails/MovieListDetails.css'
+export * from './MoviesPages/MoviesPages';

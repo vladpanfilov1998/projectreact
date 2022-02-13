@@ -1,9 +1,10 @@
-import {Routes, Route, Link, Outlet} from "react-router-dom";
-import Home from "./components/Home/Home";
+import {Routes, Route, Outlet} from "react-router-dom";
+
 import GenreBadge from "./components/GenreBadge/GenreBadge";
-import {MoviesAllList} from "./components";
+import {MoviesAllList, MoviesListDetails} from "./components";
 import Layout from "./components/Layout/Layout";
 import MovieSingleDetails from "./components/MovieSingleDetails/MovieSingleDetails";
+import {MoviesList} from "./components";
 
 function App() {
     return (
@@ -12,11 +13,16 @@ function App() {
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
                     <Route path={'/genres'} element={<GenreBadge/>}>
-                        <Route path={'genre-details'} element={<MovieSingleDetails/>}/>
+                        <Route path={'genre-details'} element={<MovieSingleDetails/>}>
+
+                        </Route>
                     </Route>
 
-                    <Route path={'/movies'} element={<MoviesAllList/>}/>
+                    <Route path={'/genres/genre-details/movies'} element={<MoviesListDetails/>}/>
 
+                    <Route path={'/movies'} element={<MoviesAllList/>}>
+                        <Route path={'movie-details'} element={<MoviesList/>}/>
+                    </Route>
                 </Route>
             </Routes>
             <Outlet/>
@@ -25,4 +31,3 @@ function App() {
 }
 
 export default App;
-
