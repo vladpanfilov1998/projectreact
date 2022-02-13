@@ -13,3 +13,5 @@ export * from './MovieSingleDetailsList/MovieSingleDetailsList';
 export * from './MoviesList/MoviesList.css';
 export * from './MoviesListDetails/MovieListDetails.css'
 export * from './MoviesPages/MoviesPages';
+export * from './MoviesAllList/MoviesAllList.css';
+export * from './MovieSingleDetails/MovieSingleDetails.css'
